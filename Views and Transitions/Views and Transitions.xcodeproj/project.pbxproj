@@ -17,6 +17,7 @@
 		E483B58A2A0B381000CF5710 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B5892A0B381000CF5710 /* HikeView.swift */; };
 		E483B58C2A0B3B0D00CF5710 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B58B2A0B3B0D00CF5710 /* HikeGraph.swift */; };
 		E483B58E2A0B3C9300CF5710 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B58D2A0B3C9300CF5710 /* HikeDetail.swift */; };
+		E483B5902A0B3D0800CF5710 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B58F2A0B3D0800CF5710 /* GraphCapsule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E483B5892A0B381000CF5710 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		E483B58B2A0B3B0D00CF5710 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		E483B58D2A0B3C9300CF5710 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		E483B58F2A0B3D0800CF5710 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				E483B5892A0B381000CF5710 /* HikeView.swift */,
-				E483B58B2A0B3B0D00CF5710 /* HikeGraph.swift */,
 				E483B58D2A0B3C9300CF5710 /* HikeDetail.swift */,
+				E483B58B2A0B3B0D00CF5710 /* HikeGraph.swift */,
+				E483B58F2A0B3D0800CF5710 /* GraphCapsule.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				E483B5872A0B371100CF5710 /* LandMark.swift in Sources */,
 				E483B5852A0B365200CF5710 /* ModelData.swift in Sources */,
 				E483B58C2A0B3B0D00CF5710 /* HikeGraph.swift in Sources */,
+				E483B5902A0B3D0800CF5710 /* GraphCapsule.swift in Sources */,
 				E483B5752A0B32BD00CF5710 /* ContentView.swift in Sources */,
 				E483B5732A0B32BD00CF5710 /* Views_and_TransitionsApp.swift in Sources */,
 				E483B58E2A0B3C9300CF5710 /* HikeDetail.swift in Sources */,
