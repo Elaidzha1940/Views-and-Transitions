@@ -1,9 +1,11 @@
+//  /*
 //
-//  LandMark.swift
-//  Views and Transitions
+//  Project: Views and Transitions
+//  File: LandMark.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 10.05.2023
 //
-//  Created by Elaidzha Shchukin on 10.05.2023.
-//
+//  */
 
 import Foundation
 import SwiftUI
