@@ -14,6 +14,7 @@
 		E483B5822A0B344300CF5710 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B5812A0B344300CF5710 /* Hike.swift */; };
 		E483B5852A0B365200CF5710 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B5842A0B365200CF5710 /* ModelData.swift */; };
 		E483B5872A0B371100CF5710 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B5862A0B371100CF5710 /* LandMark.swift */; };
+		E483B58A2A0B381000CF5710 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483B5892A0B381000CF5710 /* HikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E483B5812A0B344300CF5710 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		E483B5842A0B365200CF5710 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E483B5862A0B371100CF5710 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		E483B5892A0B381000CF5710 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,13 @@
 		E483B5712A0B32BD00CF5710 /* Views and Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				E483B5882A0B37BC00CF5710 /* Hikes */,
 				E483B5832A0B363400CF5710 /* Model */,
 				E483B5722A0B32BD00CF5710 /* Views_and_TransitionsApp.swift */,
 				E483B5742A0B32BD00CF5710 /* ContentView.swift */,
 				E483B5762A0B32BE00CF5710 /* Assets.xcassets */,
 				E483B5782A0B32BE00CF5710 /* Views_and_Transitions.entitlements */,
 				E483B5792A0B32BE00CF5710 /* Preview Content */,
-				E483B5812A0B344300CF5710 /* Hike.swift */,
 			);
 			path = "Views and Transitions";
 			sourceTree = "<group>";
@@ -82,8 +84,17 @@
 			children = (
 				E483B5842A0B365200CF5710 /* ModelData.swift */,
 				E483B5862A0B371100CF5710 /* LandMark.swift */,
+				E483B5812A0B344300CF5710 /* Hike.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E483B5882A0B37BC00CF5710 /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				E483B5892A0B381000CF5710 /* HikeView.swift */,
+			);
+			path = Hikes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E483B5822A0B344300CF5710 /* Hike.swift in Sources */,
+				E483B58A2A0B381000CF5710 /* HikeView.swift in Sources */,
 				E483B5872A0B371100CF5710 /* LandMark.swift in Sources */,
 				E483B5852A0B365200CF5710 /* ModelData.swift in Sources */,
 				E483B5752A0B32BD00CF5710 /* ContentView.swift in Sources */,
