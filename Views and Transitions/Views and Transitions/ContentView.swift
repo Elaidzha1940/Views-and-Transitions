@@ -1,9 +1,11 @@
+//  /* 
 //
+//  Project: Views and Transitions
 //  ContentView.swift
-//  Views and Transitions
+//  Created by: Elaidzha Shchukin
+//  Date: 10.05.2023
 //
-//  Created by Elaidzha Shchukin on 10.05.2023.
-//
+//  */
 
 import SwiftUI
 
